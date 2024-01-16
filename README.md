@@ -16,7 +16,7 @@ Here are files of the experiment results: [Result](https://drive.google.com/driv
 ## Useage
 ### Classification ModelNet40
 ```python
-cd classification_ModelNet40
+cd ModelNet40
 # train pointMLP
 python train_TopoPointMLP_tailversion.py
 # train pointNet++
