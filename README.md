@@ -23,6 +23,15 @@ python train_TopoPointMLP_tailversion.py
 python train_TopoPointNet2_headversion.py
 ```
 
+### Classification ModelNet40 with Noise
+```python
+cd ModelNet40_Noise
+# train pointMLP
+python train_TopoPointMLP_tailversion.py
+# train pointNet++
+python train_TopoPointNet2_headversion.py
+```
+
 ### Part segmentation
 ```python
 cd Partsegment
