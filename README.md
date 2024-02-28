@@ -9,7 +9,7 @@ By introducing TopoLayer topological features extracted, various tasks of point 
 Integration of TopoLayer, without architectural modifications, significantly improves established models such as PointMLP and PointNet++. 
 - For classification on ModelNet40, the class mean accuracy of PointMLP notably improves from 91.3\% to 91.8\%. Additionally, PointNet++ achieves a remarkable gain of 2.7\%, elevating its performance from 90.7\% to 93.4\%. 
 - For part segmentation on ShapeNetPart, PointMLP achieves a new state-of-the-art performance with 85.1\% classification mean IoU, while PointNet++ secures a significant 0.9\% increase, boosting its classification mean IoU from 81.9\% to 82.8\%.
-- Moreover, TopoLayer demonstrates its effectiveness in confronting significant loss of geometric information within objects.
+- Moreover, TopoLayer demonstrates its effectiveness in confronting loss of geometric information.
 
 Here are files of the experiment results: [Result](https://drive.google.com/drive/folders/1iFS2vJjwxr5lBL0OXoVkO3KaFpZ04v_n?usp=sharing)
 
